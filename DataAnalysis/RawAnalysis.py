@@ -41,7 +41,7 @@ def DataDes(user,item):
     usercount = len(user['user_id'].unique())
     print('----------有%d个用户信息'%(usercount))
 
-    #这些用户买了多少商品
+    #这些用户买了多少商品0000000
     itemcount = len(user['item_id'].unique())
     print('----------有%d个商品信息' % (itemcount))
 
